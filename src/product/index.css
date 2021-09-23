@@ -1,0 +1,16 @@
+#image-box {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#image-box > img {
+  height: 100%;
+}
+
+#profile-box {
+  padding: 16px;
+  margin-top: 8px;
+  border-bottom: 1px solid gray;
+}
