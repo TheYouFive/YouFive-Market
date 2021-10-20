@@ -1,0 +1,61 @@
+#upload-container {
+  padding-top: 36px;
+}
+
+#upload-img-placeholder {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(224, 216, 216);
+  background: rgb(230, 228, 228);
+  margin-left: 16px;
+}
+
+#upload-img-placeholder > img {
+  width: 50px;
+  height: 50px;
+}
+
+#upload-img-placeholder > span {
+  font-size: 15px;
+  color: rgb(112, 112, 112);
+}
+
+.upload-name {
+  width: 200px;
+}
+
+.upload-label {
+  font-size: 15px;
+  width: 80px;
+}
+
+#product-description {
+  height: 150px;
+}
+
+#submit-button {
+  float: right;
+  color: white;
+  background: rgb(30, 230, 4, 0.76);
+  border: none;
+  margin-top: 16px;
+  margin-left: 5px;
+}
+
+#cancel-button {
+  float: right;
+  color: black;
+  background: white;
+  margin-top: 16px;
+}
+
+#upload-img {
+  width: 200px;
+  height: 200px;
+  margin-left: 16px;
+  object-fit: contain;
+}

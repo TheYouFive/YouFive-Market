@@ -1,12 +1,14 @@
 #image-box {
-  height: 300px;
+  max-height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #image-box > img {
-  height: 100%;
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
 }
 
 #profile-box {
@@ -43,6 +45,7 @@
 
 #description {
   margin-top: 16px;
+  font-size: 18px;
 }
 
 #createAt {
@@ -52,4 +55,9 @@
 
 #description {
   margin-top: 16px;
+}
+
+#purchase-button {
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
